@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/user/AndroidStudioProjects/MultiBank/InsuranceApp/app/src/main/res/drawable/bg_rounded_dialog.xml" value="0.1185" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MultiBank/InsuranceApp/app/src/main/res/drawable/bottom_navigation_selector.xml" value="0.1325" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MultiBank/InsuranceApp/app/src/main/res/drawable/check_user_access_to_policy.xml" value="0.1185" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MultiBank/InsuranceApp/app/src/main/res/drawable/ic_baseline_download_24.xml" value="0.1235" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MultiBank/InsuranceApp/app/src/main/res/drawable/ic_baseline_edit_24.xml" value="0.1235" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MultiBank/InsuranceApp/app/src/main/res/drawable/rounded_corner.xml" value="0.105" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MultiBank/InsuranceApp/app/src/main/res/drawable/rounded_corner_with_lightgrey_color.xml" value="0.105" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MultiBank/InsuranceApp/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MultiBank/InsuranceApp/app/src/main/res/layout/check_user_access_to_policy.xml" value="0.14010416666666667" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MultiBank/InsuranceApp/app/src/main/res/layout/fragment_add_policy.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MultiBank/InsuranceApp/app/src/main/res/layout/fragment_login.xml" value="0.18" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MultiBank/InsuranceApp/app/src/main/res/layout/fragment_otp_verification_f_ragment.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MultiBank/InsuranceApp/app/src/main/res/layout/fragment_otp_verification_fragment.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MultiBank/InsuranceApp/app/src/main/res/layout/fragment_registration.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MultiBank/InsuranceApp/app/src/main/res/layout/fragment_select_entity.xml" value="0.22" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MultiBank/InsuranceApp/app/src/main/res/layout/fragment_user_policies.xml" value="0.18541666666666667" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MultiBank/InsuranceApp/app/src/main/res/layout/fragment_user_profile.xml" value="0.16458333333333333" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MultiBank/InsuranceApp/app/src/main/res/layout/user_access_list_item.xml" value="0.14010416666666667" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MultiBank/InsuranceApp/app/src/main/res/layout/user_policies_recyclerview_item_list.xml" value="0.1578125" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MultiBank/InsuranceApp/app/src/main/res/menu/bottom_nav_menu.xml" value="0.2" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

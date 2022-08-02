@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="@dimen/_10sdp">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:cardBackgroundColor="@color/cardViewColor"
+        app:cardCornerRadius="@dimen/_15sdp"
+        android:elevation="@dimen/_10sdp"
+        >
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guidelineLeft"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.05" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guidelineRight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.95" />
+
+            <TextView
+                android:id="@+id/policyTypeLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Policy Type:"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:textSize="@dimen/_12ssp"
+                android:textColor="@color/white"
+                android:fontFamily="sans-serif-medium"
+                app:layout_constraintStart_toStartOf="@id/guidelineLeft"
+                app:layout_constraintTop_toTopOf="parent"
+                />
+
+            <TextView
+                android:id="@+id/policyTypeValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/_14ssp"
+                android:textColor="@color/white"
+                android:layout_marginTop="@dimen/_5sdp"
+                app:layout_constraintTop_toBottomOf="@id/policyTypeLabel"
+                app:layout_constraintStart_toStartOf="@id/guidelineLeft"/>
+
+            <TextView
+                android:id="@+id/policyNumberLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Policy No.:"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:textSize="@dimen/_12ssp"
+                android:textColor="@color/white"
+                android:fontFamily="sans-serif-medium"
+                app:layout_constraintEnd_toEndOf="@id/guidelineRight"
+                app:layout_constraintTop_toTopOf="parent"
+                />
+
+            <TextView
+                android:id="@+id/policyNumberValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/_14ssp"
+                android:textColor="@color/white"
+                android:layout_marginTop="@dimen/_5sdp"
+                app:layout_constraintTop_toBottomOf="@id/policyNumberLabel"
+                app:layout_constraintEnd_toEndOf="@id/guidelineRight"/>
+
+
+            <TextView
+                android:id="@+id/startDateLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Start Date:"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:textSize="@dimen/_12ssp"
+                android:textColor="@color/white"
+                android:fontFamily="sans-serif-medium"
+                app:layout_constraintStart_toStartOf="@id/guidelineLeft"
+                app:layout_constraintTop_toBottomOf="@+id/policyNumberValue"
+                />
+
+            <TextView
+                android:id="@+id/startDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/_14ssp"
+                android:textColor="@color/white"
+                android:layout_marginTop="@dimen/_5sdp"
+                app:layout_constraintTop_toBottomOf="@id/startDateLabel"
+                app:layout_constraintStart_toStartOf="@id/guidelineLeft"/>
+
+            <TextView
+                android:id="@+id/endDateLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="End Date:"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:textSize="@dimen/_12ssp"
+                android:textColor="@color/white"
+                android:fontFamily="sans-serif-medium"
+                app:layout_constraintEnd_toEndOf="@id/guidelineRight"
+                app:layout_constraintTop_toBottomOf="@+id/policyTypeValue"
+                />
+
+            <TextView
+                android:id="@+id/endDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/_14ssp"
+                android:textColor="@color/white"
+                android:layout_marginTop="@dimen/_5sdp"
+                app:layout_constraintTop_toBottomOf="@id/endDateLabel"
+                app:layout_constraintEnd_toEndOf="@id/guidelineRight"/>
+
+            <TextView
+                android:id="@+id/checkAccess"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Check Access"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_14ssp"
+                android:paddingStart="@dimen/_15sdp"
+                android:paddingEnd="@dimen/_15sdp"
+                android:paddingTop="@dimen/_5sdp"
+                android:paddingBottom="@dimen/_5sdp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/startDate"
+                app:layout_constraintStart_toStartOf="@id/guidelineLeft"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="@id/guidelineRight"
+                app:layout_constraintTop_toBottomOf="@id/endDate"
+                android:orientation="horizontal"
+                android:paddingBottom="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_7sdp"
+                >
+                <ImageView
+                    android:id="@+id/editImageView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_baseline_edit_24"
+                    android:background="@color/grey"
+                    android:layout_marginEnd="@dimen/_3sdp"
+                    android:padding="@dimen/_5sdp"/>
+                <ImageView
+                    android:id="@+id/downloadImage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_baseline_download_24"
+                    android:background="@color/grey"
+                    android:layout_marginEnd="@dimen/_3sdp"
+                    android:padding="@dimen/_5sdp"
+                   />
+                <ImageView
+                    android:id="@+id/deleteImage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_baseline_delete_24"
+                    android:background="@color/grey"
+                    android:padding="@dimen/_5sdp"
+                    />
+            </LinearLayout>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

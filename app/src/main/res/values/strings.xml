@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">InsuranceApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="requiredFiled">Field can not be empty</string>
+    <string name="validEmailError">Enter valid email</string>
+    <string name="passwordStructure">The password should be of minimum 8, maximum 35 characters and\nmust contain at least one uppercase, one lowercase, number and a\nspecial character($@#.!).</string>
+    <string name="create_entity">Create Entity</string>
+    <string name="join_entity">Join Entity</string>
+    <string name="phoneNumberError">Enter valid Phone number.</string>
+    <string name="password_did_not_match">Password did not matched</string>
+</resources>
